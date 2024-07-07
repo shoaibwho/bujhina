@@ -15,10 +15,6 @@ const router = createBrowserRouter([
         element: <Homepage />,
     },
     {
-        path: "/post-problems",
-        element: <problem />,
-    },
-    {
         path: "/register",
         element: <Register />,
     },
@@ -33,6 +29,10 @@ const router = createBrowserRouter([
     {
         path: "/reset/:token",
         element: <NewPassword />,
+    },
+    {
+        path: "/post-problems",
+        element: <problem />,
     },
 ]);
 
