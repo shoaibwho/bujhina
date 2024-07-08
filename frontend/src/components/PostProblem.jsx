@@ -31,6 +31,7 @@ const PostProblem = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div>
+        <h2>Post-Problems</h2> 
         <label htmlFor="title">Title:</label>
         <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} required />
       </div>
